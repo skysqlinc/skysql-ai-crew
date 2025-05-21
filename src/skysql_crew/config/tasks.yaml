@@ -1,0 +1,10 @@
+db_query_task:
+  description: >
+    Use SkySQL DB agents to answer the user's question: {user_input}.
+    Your final answer MUST include:
+    - A natural language explanation
+    - Any SQL generated
+    - 2 follow-up questions for deeper exploration
+  expected_output: >
+    A clear and helpful response answering the user's database question, including relevant SQL and suggestions.
+  agent: db_chat_agent
