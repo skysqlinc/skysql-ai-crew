@@ -50,11 +50,26 @@ A higher-level CrewAI agent can take the user query, clarify intent, manage flow
 
 ## Example Use Cases
 
-- Answering business questions like "What are our top-selling products this quarter?" using natural language
-- Generating optimized SQL queries for dashboards or reports
-- Providing product managers or analysts with chat-based analytics interfaces
-- Extracting KPI summaries without writing SQL
-- Powering data copilots that rewrite vague user questions into concrete, executable queries
+SkySQL DB Agents are most valuable when used within larger business workflows powered by multi-agent orchestration. Here are some powerful CrewAI-driven scenarios:
+
+- **Customer Support Insights Agent**
+  An agent that analyzes support ticket data from a MySQL DB, identifies frequent complaint categories, and correlates them with customer churn or retention — enabling targeted improvements.
+
+- **Revenue Intelligence Dashboard Builder**
+  A crew that receives high-level business questions like “What was revenue growth for top 3 product lines across North America last quarter?” and translates them into accurate, complex SQL against sales and customer data tables.
+
+- **Product Feedback Analyzer**
+  An agent workflow that queries customer review databases to find common feature requests and automatically groups them by product version and customer segment.
+
+- **Financial Risk Summarizer**
+  An agent crew that pulls transaction and account data, calculates KPIs such as debt-to-income or fraud risk scores, and provides compliance-focused summaries to analysts.
+
+- **Chained Workflow Agent for Marketing Analytics**
+  A pipeline of agents: one rewriting the goal into sub-questions, one querying SkySQL agents for web traffic, conversions, and campaign data, and a synthesizer agent that summarizes marketing ROI — all without human-written SQL.
+
+- **AI-Powered Data Access Layer for Applications**
+  Business apps (dashboards, CRMs, internal tools) use the crew as a backend interface to SkySQL agents — so users interact via natural language instead of SQL or filters.
+
 
 ## Configuration Instructions
 
