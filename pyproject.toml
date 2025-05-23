@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skysql-ai-crew"
+version = "0.1.0"
+description = "CrewAI integration for SkySQL DB Agents"
+authors = [
+    { name="SkySQL AI Crew Contributors", email="info@skysql.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "crewai>=0.22.11",
+    "crewai-tools>=0.1.0",
+    "openai>=1.0",
+    "python-dotenv"
+] 

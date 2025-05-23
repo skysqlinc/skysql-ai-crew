@@ -1,0 +1,19 @@
+name: SkySQL Semantic DB Crew
+description: >
+  An AI crew to converse using natural language with a SQL DB with high accuracy. 
+  While it is possible to generate SQL given some schema description to a LLM or use APIs in frameworks, 
+  it is rather challenging to generate accurate SQL for real-world DBs with high complexity.
+
+  This crew addresses that challenge by gathering the correct semantic context,
+  enabling humans to add domain knowledge (e.g. mapping terms to columns), and
+  storing relevant data like schema, value categories, etc., in vector stores.
+
+  SkySQL DB Agents provide a No-Code UI to autonomously learn the DB context.
+  It is secure, reliable, and enables your CrewAI agents to interact with these Agents via simple tools.
+tags:
+  - SQL
+  - Natural Language to SQL
+  - Semantic Search
+  - Vector DB
+  - Autonomous Agents
+icon: assets/logo.png
